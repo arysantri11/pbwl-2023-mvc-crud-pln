@@ -1,0 +1,177 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #54bb65;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brand {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.user {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+main {
+    margin-left: 210px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    padding: 10px 20px;
+    margin: 5px 0 5px 0;
+    display: block;
+    color: #000000;
+}
+
+nav a:hover {
+    background-color: #46a857;
+}
+
+.nav-active {
+    background-color: #46a857;
+}
+
+nav .icon {
+    width: 25px;
+    float: left;
+    padding-right: 10px;
+}
+
+.info {
+    background-color: #f5f7fa;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Article */
+article {
+    padding-bottom: 100px;
+}
+
+/* Table */
+table {
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+table th {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #c51515;
+    color: white;
+}
+
+table td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+/* button */
+.btn {
+    background-color: #1a6ed8;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: #1e7ff5;
+}
+
+.btn-tambah {
+    background-color: #409a4f;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.btn-tambah:hover {
+    background-color: #2f703a;
+}
+
+.btn-simpan {
+    background-color: #357e41;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-simpan:hover {
+    background-color: #295f32;
+}
+
+.btn-edit {
+    background-color: #ffd000;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.btn-edit:hover {
+    background-color: #cfaa03;
+}
+
+.btn-delete {
+    background-color: #e90000;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #ac0202;
+}
+
+/* text */
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.judul-halaman {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 20px 0 20px 10px;
+    background-color: #f5f7fa;
+    width: 100%;
+    border-top: 1px solid #d8dadf;
+}
